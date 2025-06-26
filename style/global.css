@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-heading: "Baloo 2", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+    
+    --heading-md: 600 1.75rem/auto var(--font-heading);
+    --heading-sm: 600 1.125rem/auto var(--font-heading);
+
+    --text-md: 400 1rem/auto var(--font-body); 
+    --text-sm: 400 .875rem/auto var(--font-body);
+    --text-xs: 400 .75rem/auto var(--font-body);
+
+    --brand-color-light: #59B2FF;
+    --brand-color-mid: #3487CF;
+    --brand-color-dark: #1D6FB6;
+
+    --danger-color: #FF5959;
+
+    --input-color-base: #1C1F21;
+    --input-color-stroke: #363B40;
+    --input-color-placeholder: #869198;
+
+    --color-bg: #131516;
+    --color-page: #212427;
+    --hover-bg-color: #383D42;
+    --button-color: #2D3136;
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+}
+
+body{
+    /* background-color: var(--color-bg); */
+    overflow: hidden;
+    
+    font: var(--text-md);
+    color: var(--text-body);
+}
+
+#page{
+    background-color: var(--color-page);
+}
+
+h1{
+    color: var(--text-heading);
+    font: var(--heading-md);
+}
+
+h2{
+    color: var(--text-heading);
+    font: var(--heading-sm);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+} 
