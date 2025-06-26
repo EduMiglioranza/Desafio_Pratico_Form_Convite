@@ -1,11 +1,22 @@
 #app{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 32.7% 67.3%;
+    gap: 1.25rem;
+    height: 100vh;
+    padding: 1.25rem;
+
+    background-color: var(--color-bg);
 }
 
-
 aside{
-    background: url(../assets/Background.png) no-repeat;
-    height: 45.5rem;
+    background: url(../assets/Background.png) no-repeat center/cover;
+    max-width: 25rem;
+    header{
+        margin: 2rem;
+    }
+
+    & header > img {
+        margin-bottom: 1rem;
+    }
 }
 

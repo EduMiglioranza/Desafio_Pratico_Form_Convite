@@ -35,15 +35,10 @@
 }
 
 body{
-    /* background-color: var(--color-bg); */
     overflow: hidden;
-    
+
     font: var(--text-md);
     color: var(--text-body);
-}
-
-#page{
-    background-color: var(--color-page);
 }
 
 h1{
@@ -55,8 +50,3 @@ h2{
     color: var(--text-heading);
     font: var(--heading-sm);
 }
-
-img{
-    max-width: 100%;
-    height: auto;
-} 
