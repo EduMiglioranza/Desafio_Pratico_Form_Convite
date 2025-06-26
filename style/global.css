@@ -8,12 +8,12 @@
     --font-heading: "Baloo 2", sans-serif;
     --font-body: "Open Sans", sans-serif;
     
-    --heading-md: 600 1.75rem/auto var(--font-heading);
-    --heading-sm: 600 1.125rem/auto var(--font-heading);
+    --heading-md: 600 1.75rem/1.5 var(--font-heading);
+    --heading-sm: 600 1.125rem/1.5 var(--font-heading);
 
-    --text-md: 400 1rem/auto var(--font-body); 
-    --text-sm: 400 .875rem/auto var(--font-body);
-    --text-xs: 400 .75rem/auto var(--font-body);
+    --text-md: 400 1rem/1.4 var(--font-body); 
+    --text-sm: 400 .875rem/1.4 var(--font-body);
+    --text-xs: 400 .75rem/1.4 var(--font-body);
 
     --brand-color-light: #59B2FF;
     --brand-color-mid: #3487CF;

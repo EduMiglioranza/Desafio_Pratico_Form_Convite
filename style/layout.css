@@ -1,7 +1,7 @@
 #app{
     display: grid;
     grid-template-columns: 32.7% 67.3%;
-    gap: 1.25rem;
+    gap: 20px;
     height: 100vh;
     padding: 1.25rem;
 
@@ -11,8 +11,14 @@
 aside{
     background: url(../assets/Background.png) no-repeat center/cover;
     max-width: 25rem;
-    header{
+    border-radius: .75rem;
+
+    & header{
         margin: 2rem;
+        
+        & div img{
+            margin-bottom: 1rem;
+        }
     }
 
     & header > img {
@@ -20,3 +26,9 @@ aside{
     }
 }
 
+main{
+    overflow: auto;
+    background: var(--color-page) no-repeat center;
+    border-radius: .75rem;
+
+}
