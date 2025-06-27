@@ -1,7 +1,7 @@
 #app{
     display: grid;
     grid-template-columns: 32.7% 67.3%;
-    gap: 20px;
+    gap: 1.25rem;
     height: 100vh;
     padding: 1.25rem;
 
@@ -12,6 +12,7 @@ aside{
     background: url(../assets/Background.png) no-repeat center/cover;
     max-width: 25rem;
     border-radius: .75rem;
+    margin-left: auto;
 
     & header{
         margin: 2rem;
@@ -31,4 +32,6 @@ main{
     background: var(--color-page) no-repeat center;
     border-radius: .75rem;
 
+    max-width: 51.25rem;
+    padding: 5rem 8.125rem;
 }
