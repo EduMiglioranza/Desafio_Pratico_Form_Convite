@@ -34,4 +34,8 @@ main{
 
     max-width: 51.25rem;
     padding: 5rem 8.125rem;
+
+    & h1{
+        margin-bottom: 2.5rem;
+    }
 }
