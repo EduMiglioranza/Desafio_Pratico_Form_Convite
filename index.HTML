@@ -30,6 +30,59 @@
          <main>
             <form method="post">
                 <h1>Crie seu convite</h1>
+
+                <fieldset id="about">
+                    <span>
+                        <img src="" alt="">
+                        <h2>Sobre o evento</h2>
+                    </span>
+
+                    <div class="input-wrapper">
+                        <label for="title">Título</label>
+                        <input type="text" name="title" id="title" placeholder="Nome do evento">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="start">Início</label>
+                        <input type="date" name="start" id="start">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="end">Fim</label>
+                        <input type="date" name="end" id="end">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label>Tipo</label>
+
+                        <div class="radio-wrapper">
+
+                            <div class="radio-inner">
+                                <div class="radio-image"></div>
+                                <label for="presence">Presencial</label>
+                                <input type="radio" name="presence" id="presence">
+                            </div>
+
+                            <div class="radio-inner">
+                                <div class="radio-image"></div>
+                                <label for="online">Online</label>
+                                <input type="radio" name="online" id="online">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="input-wrapper">
+                        <label for="place">Local</label>
+                        <input type="text" name="place" id="place">
+                    </div>
+
+                    <div class="textarea-wrapper">
+                        <label for="description">Descrição</label>
+                        <textarea name="description" id="description" cols="30" rows="5" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                    </div>
+                </fieldset>     
             </form>
         </main>
         
