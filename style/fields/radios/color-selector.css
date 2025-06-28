@@ -1,12 +1,10 @@
 #color-selector{
-    display: grid;
-    justify-content: space-between;
     gap: .5rem;
     
 
     & .radio-inner{
-        min-width: 2.5rem;
-        min-height: 2.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
         border: 6px solid var(--button-color);
         border-radius: 50%;
 
