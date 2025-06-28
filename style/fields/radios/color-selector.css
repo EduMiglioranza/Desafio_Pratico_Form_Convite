@@ -8,8 +8,12 @@
         border: 6px solid var(--button-color);
         border-radius: 50%;
 
-        &:hover, &:has(input:checked){
+        &:has(input:checked){
             outline: 2px solid var(--brand-color-light);
+        }
+
+        &:hover {
+            border-color: var(--hover-bg-color);
         }
 
         & label{
