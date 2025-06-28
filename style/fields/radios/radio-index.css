@@ -1,0 +1,25 @@
+@import url(./type-selector.css);
+@import url(./color-selector.css);
+
+/*------------------*/
+
+.radio-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
+}
+
+.radio-inner{
+
+    & input,
+    & input:hover,
+    & input:focus{
+        all: unset;
+
+    }
+
+    & label {
+        cursor: pointer;
+    }
+}
+
+
