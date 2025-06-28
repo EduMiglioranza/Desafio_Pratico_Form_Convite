@@ -15,9 +15,9 @@
 }
 
 
-/*-- Tipo -> About --*/
+/*----------------------------*/
 
-#type-box{
+#type-selector{
     display: grid;
     gap: .25rem;
     background-color: var(--input-color-base);
@@ -69,3 +69,6 @@
         background-image: url(../../assets/icons/video_blue.svg);
     }
 }
+
+/*------------------------*/
+
