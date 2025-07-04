@@ -1,0 +1,91 @@
+#switch-button{
+    /* General setup */
+    & > span {
+        display: flex;
+        justify-content: left;
+        gap: .75rem;
+    }
+
+    /* switch */
+    & label {
+        cursor: pointer;
+        & input{
+            display: none;
+        }
+
+        & input:checked + #tracker{
+            background-color: var(--brand-color-light);
+        }
+    
+        & input:checked + #tracker::before{
+            background-color: white;
+            animation: slide-in 0.2s forwards;
+        }
+
+        & input:not(:checked) + #tracker::before{
+            animation: slide-back 0.2s forwards;
+        }
+
+    }
+
+
+}
+
+/* tracker */
+
+#tracker{
+    position: relative;
+    display: inline-block;
+
+    width: 4rem;
+    height: 2rem;
+
+    background-color: var(--input-color-base);
+    border: 1px solid var(--input-color-stroke);
+    border-radius: 999px;
+
+}
+
+#tracker::before{
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: .25rem;
+
+    background-color: var(--input-color-stroke);
+    border-radius: 80%;
+}
+
+/* text */
+ .status-text::after {
+    content: "Escuro";
+}
+
+label:has(input:checked) ~ .status-text::after{
+    content: "Claro";
+}
+
+
+/* Animation */
+
+@keyframes slide-in {
+  from {
+    left: .25rem;
+  }
+  to {
+    left: 2.15rem;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 2.15rem;
+  }
+  to {
+    left: .25rem;
+  }
+}

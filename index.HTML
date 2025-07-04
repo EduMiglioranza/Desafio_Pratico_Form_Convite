@@ -31,7 +31,7 @@
 
             <h1>Crie seu convite</h1>
 
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <fieldset id="about">
                     <legend>
                         <img src="./assets/icons/calendar.svg" alt="icone de calendario">
@@ -275,6 +275,24 @@
                                 </div>
                             </div>
 
+                        </div>
+
+                        <div class="input-wrapper" id="switch-button">
+                            <label>Estilo</label>
+
+                            <span>
+
+                                <label>
+                                     <input type="checkbox" name="estilo">
+                                    <span id="tracker"></span>
+                                </label>
+                                <span class="status-text"></span>
+                            </span>
+
+                        </div>
+
+                        <div class="input-wrapper">
+                            <input type="file">
                         </div>
                     </section>
                 </fieldset>
