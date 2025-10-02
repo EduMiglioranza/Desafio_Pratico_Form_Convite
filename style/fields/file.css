@@ -1,0 +1,32 @@
+#file {
+    display: flex;
+    gap: .75rem;
+    flex-direction: row;
+    width: 100%;
+
+    & input,
+    & input:hover,
+    & input:checked{
+        all: unset;
+    }
+
+    & input {
+        display: none;
+    }
+    
+    & input:hover{
+        display: none;
+    }
+
+    & label {
+        background-color: var(--input-color-stroke);
+        border-radius: 5px;
+        height: 40px;
+        width: 119px;
+        text-align: center;
+        align-content: center;
+        cursor: pointer;
+    }
+
+
+}

@@ -1,5 +1,9 @@
 #switch-button{
     /* General setup */
+
+    width: 11rem;
+
+  
     & > span {
         display: flex;
         justify-content: left;

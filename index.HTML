@@ -277,22 +277,35 @@
 
                         </div>
 
-                        <div class="input-wrapper" id="switch-button">
-                            <label>Estilo</label>
+                        <div class="input-wrapper double-line" id="style-choices">
+                            <div class="input-wrapper" id="switch-button">
+                                <label>Estilo</label>
 
-                            <span>
+                                <span>
 
-                                <label>
-                                     <input type="checkbox" name="estilo">
-                                    <span id="tracker"></span>
-                                </label>
-                                <span class="status-text"></span>
-                            </span>
+                                    <label>
+                                        <input type="checkbox" name="estilo">
+                                        <span id="tracker"></span>
+                                    </label>
+                                    <span class="status-text"></span>
+                                </span>
 
-                        </div>
+                            </div>
 
-                        <div class="input-wrapper">
-                            <input type="file">
+                            <div class="input-wrapper">
+                                <label>Foto de capa</label>
+                                <div class="input-wrapper" id="file">
+                                    
+                                    <label for="upload">
+                                        <img src="./assets/icons/upload.svg" alt="Icone de upload">
+                                        Selecionar
+                                    </label>
+                                    <span>Nenhum arquivo foi selecionado.</span>
+
+                                    <input type="file" accept="image/*" name="upload" id="upload">
+
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </fieldset>

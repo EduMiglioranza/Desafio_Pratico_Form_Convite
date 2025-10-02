@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: .5rem;
+    
 
     & .radio-inner{
-        width: 8.375rem;
+        width: 8rem;
 
         & label {
             display: block;
