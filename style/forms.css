@@ -30,6 +30,17 @@ section{
     }
 }
 
+hr{
+    border: none;
+    background-color: var(--input-color-stroke);
+    height: 0.1rem;
+    margin-bottom: 2.5rem;
+}
+
+a{
+    color: var(--brand-color-light);
+}
+
 #custom section{
     gap: 1.75rem;
 }
